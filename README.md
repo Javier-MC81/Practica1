@@ -1,8 +1,9 @@
 # Practica1
 -¿Qué comando utilizaste en el paso 11?¿Por qué?
-git reset --hard HEAD~1  Porque es la forma de volver al commit anterior perdiendo los cambios en el working copy. 
+git reset --hard HEAD~1 
+Porque es la forma de volver al commit anterior perdiendo los cambios en el working copy. 
 -¿Qué comando o comandos utilizaste en el paso 12?¿Por qué?
-git reflog (para rastrear el ID del cmmit donde está modificado el archivo )
+git reflog (para rastrear el ID del commit donde está modificado el archivo )
 git reset 9103c94 ( vuelvo con HEAD  y la rama styled al commit del archivo modificado para rehacer el commit ).
 -El merge del paso 13, ¿Causó algún conflicto?¿Por qué?
 No. Realmente no hace nada porque la rama styled ya disfruta del commit de la rama main y no tiene que hacer nada.
